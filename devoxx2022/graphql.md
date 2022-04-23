@@ -1,4 +1,4 @@
-#Présentation de GraphQL avec Kotlin et Spring
+# Présentation de GraphQL avec Kotlin et Spring
 
 Talk : https://cfp.devoxx.fr/2022/talk/YFR-2007/Comprendre_GraphQL
 
