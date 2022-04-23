@@ -4,7 +4,7 @@ Talk : https://cfp.devoxx.fr/2022/talk/IFY-4656/Loom_nous_Protegera-t-il_du_Braq
 
 - Loom (jdk 19) : 100k thread
 
-- Contre à peine 4k en threads parallèle
+- Contre à peine 4k en threads parallèle (thread, join, sémaphore (lock/unlock))
 
 ```
 StartVirtualThread

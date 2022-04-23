@@ -1,6 +1,10 @@
-# Présentation de GraphQL avec Kotlin et Spring
+# Comprendre GraphQL
+Présentation de GraphQL avec Kotlin et Spring
 
 Talk : https://cfp.devoxx.fr/2022/talk/YFR-2007/Comprendre_GraphQL
+
+- Init par Facebook en 2012
+- Depuis 2018, Fondation Apollo GraphQL (OpenSource) sauf les outils de visualisation
 
 https://www.graphql-java.com/tutorials/getting-started-with-spring-boot/
 
