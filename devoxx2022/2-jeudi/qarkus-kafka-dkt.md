@@ -8,6 +8,10 @@ Flux de containers DKT avec les produits entrepots
 En réalité plus 800k en moyenne mais impressionnant !
 
 Flux SUPA, supply order :)
+```
+Async profiler
+JavaFlightRecorder
+```
 
 Face à des problèmes de réponses de services externes (ERP) => SAP
 
