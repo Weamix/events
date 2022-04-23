@@ -20,6 +20,7 @@ Aucun des 4 n'a survécu au test
 Ils souhaitaient obtenir *10 et pas un simple *2
 
 Trop dur de migrer leur base Postgres vers une autre
+
 Citus qui est basé sur du Postgres a été la plus loin.
 
 ### Plan B : split the database 

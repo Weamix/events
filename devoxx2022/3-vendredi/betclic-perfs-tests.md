@@ -36,6 +36,6 @@ Transition cloud depuis 2020
 
 
 Stats Euro 2020 :  
-- 1 millions d'utilisateurs (peu?)
+- 1 million d'utilisateurs (peu?)
 - 100 millions de logins 
 - Winamax 6 millions d'users
