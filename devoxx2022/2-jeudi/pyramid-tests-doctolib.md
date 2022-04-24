@@ -9,7 +9,7 @@ Talk : https://cfp.devoxx.fr/2022/talk/CYM-1712/S'affranchir_de_la_Pyramide_des_
 
 Comment suivre le coverage? Avec Sonar on a le % de TUs.
 ```Ils n'ont pas de solution
-Par nouvelle feature, il s'assure de bien avoir un test end to end 
+Par nouvelle feature, ils s'assurent de bien avoir un test end to end 
 Et de couvrir les cas importants
 Nous on liste tout et on suit sur ARA
 ```

@@ -3,6 +3,7 @@
 Talk : https://cfp.devoxx.fr/2022/talk/KCB-5237/Doctolib_a_besoin_d'une_base_de_donnees_plus_puissante._Ok,_mais_laquelle%3F
 
 Monolith doctolib en ruby on rails
+
 Leur stratégie résumé : "Rien changer tout de suite si le mur est dans 6 mois"
 
 ### Plan A : switch to a bigger datbase

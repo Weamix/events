@@ -2,7 +2,7 @@
 
 Talk : https://cfp.devoxx.fr/2022/talk/RKZ-1909/Migrer_de_Spring_MVC_a_Spring_Web_Flux
 
-- Spirng MVC
+- Spring MVC
   - 1 thread =  1 request
   - Parallelisation dépend du nombre de cores sur CPU
 
@@ -19,7 +19,8 @@ Dans l'exemple, SpringWebFlux n'était pas la bonne solution au soucis.
 Le PB était au niveau de la DB
 
 Intérressant dans un seul cas : un aggregator de plusieurs services 
-Si ces services ne tienent pas la charge 
+
+Si ces services ne tiennent pas la charge 
 
 
 Warning  : Dans 2 ans, ça sera remplacé potentiellement par Loom?
