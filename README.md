@@ -33,14 +33,22 @@ Notes personnels des events auxquels j'ai participé :
   - Gradle: Donnez de l’amour à votre build, il vous le rendra!
   - À la découverte des bases de données
   - Architecturoplastie hexagonale d’un backend Node.js : Opération à code ouvert
+  - Java application security the hard way - a workshop for the serious developer
   - Rendez l'agilité aux développeur(se)s !
   - La sécurité avec les headers HTTP : Tour d’horizon des attaques et défenses possibles
   - Github Co-Pilot : Addictif ou Efficace ?
 
 - Jeudi
   - JOOQ, joy of SQL
+  - Data scientists vs. développeurs: des métiers (très!) différents
+  - Java Next - From Amber to Loom, from Panama to Valhalla
+
 - Vendredi
-  - ?
+  - Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?
+  - The Art of Java Type Patterns
+  - Mob programming, la véritable approche du développement en équipe
+  - Développement sans fron-Tiers
+  - La fin des architectures en couches avec l’approche hexagonale
 
 Warning sur les archis hexa : Cyril G. "c'est lourd à mettre en place, donc pour les petits projets (mode microservices), c'est pas forcement le meilleur choix (en 2005, la durée de vie des apps, c'était 10 ans, on faisait du monolithe bien lourd, fallait que ce soit maintenable 7-8 ans ou plus après le debut du projet)"
 
