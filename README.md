@@ -2,7 +2,7 @@
 
 Notes personnels des events auxquels j'ai participé :
 
-### Devoxx 2022 - https://cfp.devoxx.fr/2022/index.html
+## Devoxx 2022 - https://cfp.devoxx.fr/2022/index.html
   - Mercredi
       - [Comprendre GraphQL](./devoxx2022/1-mercredi/graphql.md)
       - [Loom nous Protègera-t-il du Braquage Temporel ?](./devoxx2022/1-mercredi/loom.md)
@@ -25,6 +25,12 @@ Notes personnels des events auxquels j'ai participé :
     - [Migrer de Spring MVC à Spring Web Flux](./devoxx2022/3-vendredi/spring-web-flux.md)
     - [Doctolib a besoin d'une base de données plus puissante. Ok, mais laquelle?](./devoxx2022/3-vendredi/doctolib-db.md)
     - [Comment permettre 100 millions de logins sans interruption de service ? Betclic raconte son Euro 2020 de football](./devoxx2022/3-vendredi/betclic-perfs-tests.md)
+
+### Stands
+
+2 outils que je vous conseille de découvrir :
+- https://promyze.com/fr/
+- https://gatling.io/ (cf l'utilisation par [Betclic](./devoxx2022/3-vendredi/betclic-perfs-tests.md))
 
 ### Replays à voir :
 
