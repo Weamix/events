@@ -16,6 +16,15 @@ Réponse aux problématiques de rigidité du REST
 - Underfetching : plus d'appels si on veut plus d'informations
   GraphQL gère l'imbrication et les jointures entre les tables
 
+### REST vs GraphlQL
+```
+Non interractif (systeme/syteme)        |           Interacctif, temps réel
+Microservices                           |           Application mobile
+Objets simples                          |           Objets complexes
+Requêtes repetees                       |           Requêtes complexes
+```
+
+
 ## - Query (http post) => récupérer
 
 ```
@@ -160,12 +169,43 @@ mutation{
 
 ## - Subscription (web sockets)
 
-### REST vs GraphlQL
 ```
-Non interractif (systeme/syteme)        |           Interacctif, temps réel
-Microservices                           |           Application mobile
-Objets simples                          |           Objets complexes
-Requêtes repetees                       |           Requêtes complexes
+public class Subscriptions{
+  [Subscribe]
+  [Topic]
+  public User OnUserAdded([EventMesqge] User user) => user{
+    
+  }
+}
+```
+
+On utilise la mutation pour gérer notre event avec quelques modifications :
+```
+TODO fix signature
+
+public class Mutations{
+  public async Task<AddUserPayload> AddUserAsync(AddUserInput input, [ScopedService] DatabaseContext context, [Service] ITopic... , ...)
+  {
+    var newUser = new User{
+      Name = input.name,
+      Email = input.email,
+    };
+    context.Users.Add(newUser);
+    await context.SaveChangeAsync();
+    await.eventSender.SendAsync(nameof(Subscription.OnUserAdded), newUser, cancelationToken);
+    
+    return new AddUserPayload(newUser);
+  }
+}
+```
+
+```
+subscription{
+  onUserAdded{
+    id,
+    name
+  }
+}
 ```
 
 ### Démo avec .Net sur une application d'EDT
