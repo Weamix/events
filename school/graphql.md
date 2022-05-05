@@ -1,5 +1,5 @@
 # GraphQL & .Net Core
-Par Clément Fasquel (TL .Net Core chez Eurotunnel)
+Par [Clément Fasquel](https://www.linkedin.com/in/clementfasquel/) (TL .Net Core chez Eurotunnel)
 
 ```
 Compatible avec du REST
