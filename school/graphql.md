@@ -46,9 +46,6 @@ S'il y a un ajout d'une donnée, ex. une date de controle technique, il faut raj
 VS sur une api REST devoir rajouter le champ dans le retour à l'appel
 ```
 
-## - Mutation (http reponse) => modifier
-## - Subscription (web sockets)
-
 Mappés à des modéles :
 - Inputs
 - Types (sécurité pour ne pas tout exposer)
@@ -98,6 +95,30 @@ query{
     }
 }
 ```
+
+### Filters
+Avec HotChocolate : [UseFiltering]
+```
+query{
+    users(where:{id:{eq:2}}){
+      name   
+    }
+}
+```
+
+### Sort
+Avec HotChocolate : [UseSorting]
+```
+query{
+    events(order:{name: DESC}){
+      name   
+    }
+}
+```
+
+## - Mutation (http reponse) => modifier
+## - Subscription (web sockets)
+
 
 ### REST vs GraphlQL
 ```
