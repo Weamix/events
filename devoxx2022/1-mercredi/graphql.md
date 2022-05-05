@@ -32,3 +32,7 @@ Directive -> where @defer
 
 - GraphQL envoie toujours en POST
 - Renvoie toujours des 200 en résultats (avec l'erreur dans la réponse) #CUBE
+
+_________________________
+
+Plus de détails sur : [GraphQL avec .Net Core](/school/graphql.md)
