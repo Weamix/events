@@ -47,9 +47,9 @@ VS sur une api REST devoir rajouter le champ dans le retour à l'appel
 ```
 
 Mappés à des modéles :
-- Inputs
-- Types (sécurité pour ne pas tout exposer)
-- Payloads
+- Inputs (lié aux mutations)
+- Types (lié aux Queriy, sécurité pour ne pas tout exposer)
+- Payloads (partie d'un objet qui nous intéresse)
 
 ### Types
 
@@ -116,16 +116,56 @@ query{
 }
 ```
 
-## - Mutation (http reponse) => modifier
-## - Subscription (web sockets)
+## - Mutation (http response) => modifier
 
+```
+public class Mutations{
+  public async Task<AddUserPayload> AddUserAsync(AddUserInput input, DatabaseContext context)
+  {
+    var newUser = new User{
+      Name = input.name,
+      Email = input.email,
+    };
+    context.Users.Add(newUser);
+    await context.SaveChangeAsync();
+    
+    return new AddUserPayload(newUser);
+  }
+}
+```
+
+```
+public record AddUserInput(string name, string email);
+```
+
+```
+public record AddUserPayload(User user);
+```
+
+```
+mutation{
+  addUser(input : {
+    name:"Tommy",
+    email:"tommy@pomme.com"
+  })
+  {
+  user{
+    id,
+    name,
+    email
+  }
+  }
+}
+```
+
+## - Subscription (web sockets)
 
 ### REST vs GraphlQL
 ```
 Non interractif (systeme/syteme)        |           Interacctif, temps réel
 Microservices                           |           Application mobile
 Objets simples                          |           Objets complexes
-Requêtes repetees                      |           Requêtes complexes
+Requêtes repetees                       |           Requêtes complexes
 ```
 
 ### Démo avec .Net sur une application d'EDT
