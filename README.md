@@ -50,7 +50,7 @@ Notes personnels des events auxquels j'ai participé :
   - Java Next - From Amber to Loom, from Panama to Valhalla
 
 - Vendredi
-  - Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?
+  - [Développ(eur|euse) Senior avec 6 ans d’expérience, et après ?](devoxx2022/replays/senior6ansexp.md)
   - The Art of Java Type Patterns
   - Mob programming, la véritable approche du développement en équipe
   - Développement sans fron-Tiers
