@@ -24,3 +24,4 @@ Si ces services ne tiennent pas la charge
 
 
 Warning  : Dans 2 ans, ça sera remplacé potentiellement par Loom?
+-> Gilles "en fait, pas vraiment (les réponses dans le talk 'illoominaties')"

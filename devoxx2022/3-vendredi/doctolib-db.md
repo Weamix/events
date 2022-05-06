@@ -21,6 +21,7 @@ Aucun des 4 n'a survécu au test
 Ils souhaitaient obtenir *10 et pas un simple *2
 
 Trop dur de migrer leur base Postgres vers une autre
+Un point important était que PostgreSQL est une base exceptionnelle au niveau de l'optimisation du chemin des requêtes ("plan d'execution", comment le moteur va optimiser l'exécution des requêtes), et que les autres bases ont fort à faire pour rattraper.
 
 Citus qui est basé sur du Postgres a été la plus loin.
 

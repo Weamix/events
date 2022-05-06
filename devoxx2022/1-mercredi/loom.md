@@ -17,4 +17,4 @@ Yield()
 Run()
 ```
 
-- Faire de la délégation quand on ne peut pas implements
+- Faire de la délégation quand on ne peut pas hériter (classe final notamment). Cela consiste à créer une classe qui a un attribut dans la classe cible que l'on veut surcharger, et à rerouter toutes les méthodes vers celles de l'attribut, sauf celles que l'on veut modifier/surcharger. Pattern "Decorator" ("Delegation" est plutôt le nom du mécanisme que le pattern lui-même).
