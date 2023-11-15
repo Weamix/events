@@ -1,4 +1,9 @@
+<img width="332" alt="Capture d’écran 2023-11-15 à 08 33 11" src="https://github.com/Weamix/events/assets/25066854/c34353d7-21cb-4832-b158-15bd390fca02">
+<img width="349" alt="Capture d’écran 2023-11-15 à 08 33 34" src="https://github.com/Weamix/events/assets/25066854/40503538-269e-4a1a-b89b-a094a8454a57"> (coucou Onepay)
+<img width="339" alt="Capture d’écran 2023-11-15 à 08 33 52" src="https://github.com/Weamix/events/assets/25066854/ad9012fe-3e53-4056-827c-34d783ea866c">
+
 * plus besoin d'écrire tout le main
+  
 Java veut se montrer comme un langage scripting et être simple pour faire un petit script (essayer de concurencer python)
 
 * Records (= cree la classe avec les attributs et le constructeur par défaut)
@@ -45,6 +50,7 @@ Faut-il implémenter les virtual threads? Oui si nouveau projet partant de zéro
 TLDR : des arguments jvm à couper sinon ça va faire mal.
 Dynamoc agents to be disallow
 
-* Q&A : 
-- 2 records dans le switch case possible 
-- il conseille java 21 à un étudiant (pas apprenti) pourtant le marché?
+* Q&A :
+  
+  - 2 records dans le switch case possible 
+  - il conseille java 21 à un étudiant (pas apprenti) pourtant le marché?
