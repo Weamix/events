@@ -44,6 +44,8 @@ Sur spring juste un param.
 Helidon? (nouveau) Versus quarkus
 
 Netty (serv web) n'est pas capable de gérer les virtual threads.
+Avec le code en C de netty entre les JVMs , impossible de déplacer en mode copie virtual threads car la partie de code en C a des pointeurs avec addresses
+Lors de la copie, ça créée un décalage.
 
 Faut-il implémenter les virtual threads? Oui si nouveau projet partant de zéro ou si vous avez une app avec plus de 10k calls par seconde.
 
