@@ -15,6 +15,8 @@ Data Oriented Programm (sealed)
 Switch case avec les records
 Case when
 
+Sealed => risque de bridage par Oracle dans le futur??
+
 * STR = String Template Processor avec anti slash
 
 Format Processor (rapide)
